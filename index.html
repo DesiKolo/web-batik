@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desiana Kolo - Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/images/logo-bs.png" type="image/x-icon">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  /* Gambar Latar belakang */
+  body {
+    background-image: url('assets/images/bg.png');
+    background-color: #d1d1d1;
+  }
+</style>
+
+<body>
+  <!-- Bagian Header -->
+  <header class="container-fluid py-3 bg-info bundle text-white">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="container ratio ratio-1x1 w-25">
+          <img class="rounded-circle img-thumbnail" src="assets/images/foto-profile.jpg" alt="Gambar">
+        </div>
+        <h1>DESIANA MARIA JULITHA KOLO</h1>
+        <p class="lead">22110036</p>
+      </div>
+    </div>
+  </header>
+  <!-- Bbagian Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-navbar sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-bs.png" alt="Logo" style="width:40px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" data-bs-theme="dark" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Referensi</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" target="_blank" href="https://www.petanikode.com/">Petani
+                  Kode</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/">W3
+                  Schools</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://getbootstrap.com/">Get
+                  Bootstrap</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Bagian Main -->
+  <main class="container bg-light text-dark">
+    <!-- Bagian Carousel -->
+    <div class="row">
+      <div class="col-12 bg-info text-light">
+        <div class="container">
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/slide/1.png" alt="Slide 1" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/slide/2.png" alt="Slide 2" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/slide/3.png" alt="Slide 3" class="d-block" style="width:100%">
+              </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bagian 3 Kolom -->
+    <div class="row ">
+      <!-- Kolom Kecil Bagian Kiri (Profil) -->
+      <div class="col-md-3">
+        <div class="container-fluid py-3">
+          <!-- Isi dari Profil dimulai dari sini -->
+          <div class="card">
+            <div class="card-header bg-info text-light">
+              <h5><i class="fa fa-user"></i> Profil</h5>
+            </div>
+            <img class="w-100  d-block mx-auto" src="assets/images/foto-profile.jpg" alt="Gambar">
+            <div class="card-body">
+              <h4 class="card-title text-center"><span class="badge rounded-pill bg-success">My
+                  Profile</span></h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-user text-warning"></i>Desiana Kolo</li>
+                <li class="list-group-item"><i class="fa fa-id-card-o text-warning"></i>Mahasiswa
+                </li>
+                <li class="list-group-item"><i class="fa fa-phone text-warning"></i>081338097838</li>
+                <li class="list-group-item text-center">
+                  <a href="about.html" class="btn btn-primary mx-auto">
+                    <i class="fa fa-search"></i> See Profile
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Isi dari Profil berakhir di sini -->
+        </div>
+      </div>
+      <!-- Kolom Kecil Bagian Kiri berakhir di sini -->
+      <div class="col-md-6 bg-info text-dark">
+        <div class="container-fluid py-3 ">
+          <img class="card-img-top" src="assets/images/banner.png" alt="Gambar" style="width:100%">
+          <h1>Batik Indonesia</h1>
+          <p>Pengalaman pribadi saya dalam menggunkaan batik adalah dimana saya selalu merasa bangga dalam menggunakan batik
+            Indonesia,karena batik merupakan salah satu karya negara kita yang sudah mendunia.
+          
+        </div>
+      </div>
+      <!-- Kolom Besar Bagian Tengah (Konten) berakhir di sini -->
+      <!-- Kolom Kecil Bagian Kanan (Profil) -->
+      <div class="col-md-3">
+        <div class="container-fluid py-3 ">
+          <!-- Isi Link Terkait dimulai dari sini -->
+          <div class="card">
+            <div class="card-header bg-info text-light">
+              <h5><i class="fa fa-external-link-square"></i> Link Terkait</h5>
+            </div>
+            <div class="card-body">
+            
+              <hr />
+              <p>Berikut adalah beberapa link yang dapat Anda akses</p>
+              <ul>
+              <li>
+              <a href="https://web.facebook.com/"
+              target="_BLANK">Facebook
+              </a>
+              </li>
+              <li>
+              <a href="https://www.siamiruyelindo.ac.id/"
+              target="_BLANK">Si Amir Uyelindo
+              </a>
+              </li>
+              <li>
+              <a href="https://www.w3schools.com/"
+              target="_BLANK">W3schools
+              </a>
+              </li>
+              <li>
+              <a href="https://www.petanikode.com/tutorial/javascript/"
+              target="_BLANK">Petani Kode
+              </a>
+              </li>
+              </ul>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- Isi Link Terkait berakhir di sini -->
+        </div>
+      </div>
+      <!-- Kolom Kecil Bagian Kanan berakhir di sini -->
+    </div>
+  </main>
+  <!-- Bagian Footer -->
+  <footer class="container-fluid py-3 bg-dark text-white">
+    <div class="row">
+      <div class="col-12 text-center">
+        &copy; Copyright
+        <script>document.write(new Date().getFullYear())</script>. Desiana Kolo - <a class="text-decoration-none"
+          target="_blank" href=https://web.facebook.com/desii.kolo.1=9R9pXO><strong>Facebook</strong></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

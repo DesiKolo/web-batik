@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desiana Kolo - Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/images/logo-bs.png" type="image/x-icon">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  /* Gambar Latar belakang */
+  body {
+    background-image: url('assets/images/bg.png');
+    background-color: #cccccc;
+  }
+</style>
+
+<body>
+  
+  <!-- Bagian Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-navbar sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-bs.png" alt="Logo" style="width:40px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" data-bs-theme="dark" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Referensi</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" target="_blank" href="https://www.petanikode.com/">Petani
+                  Kode</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/">W3
+                  Schools</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://getbootstrap.com/">Get
+                  Bootstrap</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Bagian Header -->
+<header class="container-fluid py-3">
+    <img class="w-100 img-thumbnail" src="assets/images/banner.png" alt="Gambar">
+    </header>
+<!-- Main content -->
+
+  <main class="container bg-light text-dark">
+    <div class="row">
+      <!-- Kontak Section -->
+      <div class="col-md-6 bg-secondary text-light">
+        <div class="card">
+          <div class="card-header bg-info text-light">
+            <h5><i class="fa fa-external-square"></i>Kontak</h5>
+          </div>
+          <div class="card-body">
+            <div>
+              <form>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Alamat email">
+                  </div>
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Kirim Pesan</label>
+                      <textarea class="form-control" id="message" placeholder="Tulis pesan anda..."
+                          rows="4"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Kirim</button>
+              </form>
+              <hr>
+              <h1>Peta</h1>
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.182924623549!2d123.61676257364925!3d-10.165781809733499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c568343cb0dc039%3A0xa736c243866bbec5!2sKost%20Bromance!5e0!3m2!1sid!2sid!4v1702227395867!5m2!1sid!2sid" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </iframe>
+              </div>
+          </div>
+            <!-- Isi dengan formulir kontak Anda di sini -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Link dan Video Section -->
+
+      <div class="col-md-6">
+        <!-- Kolom untuk Link Terkait -->
+        <div class="container-fluid py-9 bg-dark text-white">
+        <div class="col-md-12 bg-text-light">
+          <div class="card">
+            <div class="card-header bg-info text-light">
+              <h5><i class="fa fa-external-link-square"></i> Link Terkait</h5>
+            </div>
+            <div class="card-body">
+              <p class="text-center">Berikut adalah link terkait materi kuliah HTML</p>
+              <hr />
+              <div class="list-group list-group-flush">
+                <a href="https://www.petanikode.com/tutorial/html/" target="_BLANK"
+                  class="list-group-item list-group-item-action">Dasar HTML</a>
+                  <div class="list-group list-group-flush">
+                    <a href="https://www.petanikode.com/tutorial/html/" target="_BLANK"
+                      class="list-group-item list-group-item-action">Dasar HTML</a>
+                    <a href="https://www.petanikode.com/tutorial/css/" target="_BLANK"
+                      class="list-group-item list-group-item-action">Dasar CSS</a>
+                    <a href="https://www.petanikode.com/tutorial/javascript/" target="_BLANK"
+                      class="list-group-item list-group-item-action">Dasar Javascript</a>
+                    <a href="https://www.w3schools.com/" target="_BLANK" class="list-group-item list-group-item-action">W3
+                      Schools</a>
+                    <a href="https://getbootstrap.com/" target="_BLANK" class="list-group-item list-group-item-action">Get
+                      Bootstrap</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom untuk Video -->
+        <div class="container border mt-9"></div>
+        <div class="col-md-12bg-danger text-light">
+          <div class="card">
+            <div class="card-header bg-info text-light">
+              <h5><i class="fa fa-youtube.play"></i>Video</h5>
+            </div>
+            <!-- Isi dengan konten video Anda di sini -->
+            <!-- Contoh: -->
+            <div class="card-body">
+             <iframe width="450" height="200" src="https://www.youtube.com/embed/j3C2r-mNj5g?si=jR77t0Csbl3zwz0S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+>
+    <!-- Bagian Footer -->
+
+  <footer class="container-fluid py-3 bg-dark text-white">
+    <div class="row">
+      <div class="col-12 text-center">
+        &copy; Copyright
+        <script>document.write(new Date().getFullYear())</script>.Dsiana Kolo - <a class="text-decoration-none"
+          target="_blank" href="https://www.facebook.com/donzi.antonio?mibextid=2JQ9oc"><strong>Facebook</strong></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

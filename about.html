@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desiana Kolo- Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/images/logo-bs.png" type="image/x-icon">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  /* Gambar Latar belakang */
+  body {
+    background-image: url('assets/images/bg.png');
+    background-color: #cccccc;
+  }
+</style>
+
+<body>
+  
+  <!-- Bagian Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-navbar sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-bs.png" alt="Logo" style="width:40px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" data-bs-theme="dark" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Referensi</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" target="_blank" href="https://www.petanikode.com/">Petani
+                  Kode</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/">W3
+                  Schools</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://getbootstrap.com/">Get
+                  Bootstrap</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Bagian Header -->
+<header class="container-fluid py-3">
+    <img class="w-100 img-thumbnail" src="assets/images/banner.png" alt="Gambar">
+    </header>
+ <!-- Main content -->
+ <main class="container bg-light text-dark">
+  <div class="row">
+    <!-- Kontak Section -->
+    <div class="col-md-6 bg-light text-light">
+      <div class="card">
+        <div class="card-header bg-info text-light">
+          <h5><i class="fa fa-external-square"></i>About Desiana Kolo</h5>
+        </div>
+        <div class="card-body">
+          <article>
+            <h1>Hello, Saya Desiana Kolo!</h1>
+            <p>Saya adalah mahasiswa Stikom Uyelindo Kupang saat ini saya berdomisili di Kayu Putih,Hobbi saya adalah nonton drakor dan yang sangat saya tidak suka adalah saya dibangunkan saat selesai nonton drakor.</p>
+            <!-- You can include other details or interests here -->
+          </article>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/j3C2r-mNj5g?si=jR77t0Csbl3zwz0S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kolom untuk Link Terkait dan Video Section -->
+    <div class="col-md-6">
+      <!-- Kolom untuk Foto Profil -->
+      <div class="col-md-6 link-section">
+        <div class="container-fluid py-3">
+          <div class="card">
+            <div class="card-header bg-info text-light">
+              <h5><i class="fa fa-user"></i> Foto Profil</h5>
+            </div>
+            <img class="w-50 rounded-circle d-block mx-auto" src="assets/images/foto-profile2.jpg" alt="Gambar">
+
+
+            <div class="card-body">
+              <h4 class="card-title text-center"><span class="badge rounded-pill bg-success">Desiana Kolo</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kolom untuk Link Terkait -->
+      <div class="col-md-6">
+        <div class="container-fluid py-3">
+          <div class="card">
+            <div class="card-header bg-info text-light">
+              <h5><i class="fa fa-external-link-square"></i> Link Terkait</h5>
+            </div>
+            <div class="card-body">
+              <div class="list-group list-group-flush">
+                <a href="https://www.petanikode.com/tutorial/html/" target="_BLANK"
+                  class="list-group-item list-group-item-action">Dasar HTML</a>
+                <a href="https://www.petanikode.com/tutorial/css/" target="_BLANK"
+                  class="list-group-item list-group-item-action">Dasar CSS</a>
+                <a href="https://www.petanikode.com/tutorial/javascript/" target="_BLANK"
+                  class="list-group-item list-group-item-action">Dasar Javascript</a>
+                <a href="https://www.w3schools.com/" target="_BLANK" class="list-group-item list-group-item-action">W3
+                  Schools</a>
+                <a href="https://getbootstrap.com/" target="_BLANK"
+                  class="list-group-item list-group-item-action">Get Bootstrap</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- Bagian Footer -->
+<footer class="container-fluid py-3 bg-dark text-white">
+  <div class="row">
+    <div class="col-12 text-center">
+      &copy; Copyright <script>document.write(new Date().getFullYear())</script>. Desiana Kolo -
+      <a class="text-decoration-none" target="_blank" href="https://www.facebook.com/donzi.antonio?mibextid=2JQ9oc"><strong>Facebook</strong></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
